@@ -1,0 +1,45 @@
+.card{
+   margin-top: 50px;
+    height: 500px;
+    justify-content: space-evenly;
+}
+img{
+    width: 300px;
+    height: 400px;
+}
+.red{
+    padding: 15px 30px;
+    background:red;
+    border: 30px;
+    color: beige;
+ border-radius: 30px;
+
+}
+.blue{
+    padding: 10px 20px;
+    background: blue;
+ border-radius: 15px;
+}
+.green{
+    padding: 10px 20px;
+    background: rgb(17, 17, 18);
+}
+body{
+    background: #eee;
+    min-height: 100vh;
+}
+.big{
+    background: rgb(213, 208, 208);
+    width: 1120px;
+    height: 600px;
+    margin: auto;
+    margin-top: 100px;
+}
+.card:hover{
+transform: translateY(-10%);
+box-shadow: 3px 6px 7px 5px gray;
+transition: 1s;
+}
+p{
+    color: cyan;
+}
